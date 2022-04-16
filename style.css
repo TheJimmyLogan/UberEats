@@ -49,6 +49,14 @@ button{
     padding: 40px 16px 16px 16px;
 }
 
+.search input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-bottom: solid 1px #757575;
+}
+
 .horizontal-line{
     background: #FFFFFF;
     opacity: 0.4;
