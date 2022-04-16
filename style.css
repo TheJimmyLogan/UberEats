@@ -78,12 +78,32 @@ button{
     margin: auto;
 }
 
-.member{
+.member,
+.member:link{
     display: inline-block;
+    text-decoration: none;
+    color: #1D1D1D;
+    margin-bottom: 36px;
 }
 
 .member h3{
     font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.member h4{
+    color: #626262;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 4px 0;
+
+}
+
+.member h5{
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
 }
 
 .footer{
@@ -119,8 +139,23 @@ button{
     justify-content: space-evenly;
     align-items: center;
     color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
 }
 
 .svg{
     position: fixed;
 }
+
+
+@media screen and (max-width: 665px) {
+    .f-widow {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .Moscow-Restaurants{
+        line-height: 1;
+    }
+  }
